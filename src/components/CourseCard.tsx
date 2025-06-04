@@ -15,7 +15,7 @@ interface CourseCardProps {
   price: string;
   duration: string;
   level: string;
-  image: string;
+  video: string;
 }
 
 const CourseCard = ({
@@ -24,13 +24,20 @@ const CourseCard = ({
   price,
   duration,
   level,
-  image,
+  video,
 }: CourseCardProps) => {
   return (
     <Card className="hover:shadow-lg transition-shadow duration-300 border-0 shadow-md">
       <CardHeader className="pb-4">
         <div className="w-full h-48 rounded-lg mb-4 overflow-hidden">
-          <img src={image} alt={title} className="w-full h-full object-cover" />
+          <video
+            src={video}
+            className="w-full h-full object-cover"
+            autoPlay
+            muted
+            loop
+            playsInline
+          />
         </div>
         <div className="flex justify-between items-start">
           <CardTitle className="text-xl font-semibold text-gray-800 font-montserrat">

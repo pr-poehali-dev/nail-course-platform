@@ -9,8 +9,8 @@ const CoursesSection = () => {
       price: "15 990 ₽",
       duration: "4 недели",
       level: "Начальный",
-      image:
-        "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=400&h=300&fit=crop&auto=format",
+      video:
+        "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
     },
     {
       title: "Курс верхние формы",
@@ -19,7 +19,8 @@ const CoursesSection = () => {
       price: "12 990 ₽",
       duration: "3 недели",
       level: "Средний",
-      image: "✨",
+      video:
+        "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
     },
     {
       title: "Курс френч",
@@ -28,7 +29,8 @@ const CoursesSection = () => {
       price: "9 990 ₽",
       duration: "2 недели",
       level: "Средний",
-      image: "🤍",
+      video:
+        "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
     },
     {
       title: "Классификация верхних форм",
@@ -37,7 +39,8 @@ const CoursesSection = () => {
       price: "7 990 ₽",
       duration: "2 недели",
       level: "Продвинутый",
-      image: "📐",
+      video:
+        "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/SubaruOutbackOnStreetAndDirt.mp4",
     },
   ];
 
