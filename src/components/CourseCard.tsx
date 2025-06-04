@@ -29,8 +29,8 @@ const CourseCard = ({
   return (
     <Card className="hover:shadow-lg transition-shadow duration-300 border-0 shadow-md">
       <CardHeader className="pb-4">
-        <div className="w-full h-48 bg-gradient-to-br from-pink-100 to-purple-100 rounded-lg mb-4 flex items-center justify-center">
-          <span className="text-6xl">{image}</span>
+        <div className="w-full h-48 rounded-lg mb-4 overflow-hidden">
+          <img src={image} alt={title} className="w-full h-full object-cover" />
         </div>
         <div className="flex justify-between items-start">
           <CardTitle className="text-xl font-semibold text-gray-800 font-montserrat">

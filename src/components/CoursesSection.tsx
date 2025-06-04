@@ -9,7 +9,8 @@ const CoursesSection = () => {
       price: "15 990 ₽",
       duration: "4 недели",
       level: "Начальный",
-      image: "💅",
+      image:
+        "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=400&h=300&fit=crop&auto=format",
     },
     {
       title: "Курс верхние формы",
